@@ -1,0 +1,20 @@
+
+# ssgsea.fast
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+‘ssgsea.fast’ is an R package for fast Single-Sample Gene Set Enrichment
+Analysis (ssGSEA).
+
+## Installation
+
+In R (\>= 3.6.0), run the following to install.
+
+``` r
+if (!require("devtools", quietly = TRUE))
+   install.packages("devtools")
+
+devtools::install_github("PNNL-Comp-Mass-Spec/ssgsea.fast")
+```
